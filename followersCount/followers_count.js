@@ -16,4 +16,13 @@ function checkCountValue() {
   } else if (count === 20) {
     alert("Your Instagram post gained 20 followers! Keep it up!");
   }
+  else if (count === 0) {
+    alert("You shouldn't have shared those dick pics! All followers lost");
+  }
+}
+
+function clearCount() {
+    count = 0;
+    displayCount();
+    checkCountValue();
 }
